@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>selectLine:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>uppercaseWord:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfParagraph:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>%</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>%</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string> </string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToEndOfParagraph:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string> </string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>%</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>%</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^/</string>
+	<key>name</key>
+	<string>LaTeX convert line to section comment</string>
+	<key>scope</key>
+	<string>text.tex</string>
+	<key>uuid</key>
+	<string>63E7BED3-73A6-4493-AE12-D913AA659A20</string>
+</dict>
+</plist>
